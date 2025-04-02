@@ -22,6 +22,7 @@ typedef enum { MODIFIED, EXCLUSIVE, SHARED, INVALID } cacheLineState;
 //                  cache, and not whether its in EXCLUSIVE or MODIFIED.
 // S ( shared )     : memory block is in multiple caches
 // U ( unowned )    : memory block is not in any cache
+//...
 typedef enum { EM, S, U } directoryEntryState;
 
 typedef enum { 
